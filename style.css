@@ -1,0 +1,18 @@
+
+h1 { 
+    font-size:55px;
+    margin:30px auto !important;
+    text-align: center;
+}
+.card{
+    margin:15px auto !important;
+    padding:15px;
+   text-align: center !important;
+}
+h4{
+    font-size:40px;
+}
+h6{
+    text-align: right;
+    font-size:30px;
+}
