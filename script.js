@@ -24,6 +24,10 @@ selector.addEventListener('change', function() {
                 <h4>❞Ha?❝(nie słyszy)</h4>
                 <h6>~ Emilka</h6>
             </div>
+            <div class="card col-sm-8 col-md-5 col-lg-5">
+                <h4>❞Glamour blondy glamour i brunetki❝</h4>
+                <h6>~ Emilka</h6>
+            </div>
 
             `;
             break;
@@ -58,13 +62,31 @@ selector.addEventListener('change', function() {
                 `;
                 break;
                 case 'arturO':
-                    contrainerQuotes.innerHTML = `
-                    <h1>Cytaty Artura podczas pracy w Starej Szwajcarii</h1>
-                    <div class="card col-sm-8 col-md-5 col-lg-5">
+                contrainerQuotes.innerHTML = `
+                <h1>Cytaty Artura podczas pracy w Starej Szwajcarii</h1>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
                     <h4>❞Dooobra (i poszedł do domu)❝</h4>
                     <h6>~ Artur</h6>
-                    </div>
-                    `;
-                    break;
+                </div>
+                `;
+                break;
+                case 'marcelS':
+                contrainerQuotes.innerHTML = `
+                <h1>Cytaty Marcela podczas pracy w Starej Szwajcarii</h1>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Dooobra (i poszedł do domu)❝</h4>
+                    <h6>~ Marcel</h6>
+                </div>
+                `;
+                break;
+                case 'julkaJ':
+                contrainerQuotes.innerHTML = `
+                <h1>Cytaty Julki J. podczas pracy w Starej Szwajcarii</h1>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Oooooh dzieci drogie...❝</h4>
+                    <h6>~ Julka J.</h6>
+                </div>
+                `;
+                break;
     }
 });
