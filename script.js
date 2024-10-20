@@ -60,7 +60,7 @@ selector.addEventListener('change', function() {
                 case 'arturO':
                     contrainerQuotes.innerHTML = `
                     <h1>Cytaty Artura podczas pracy w Starej Szwajcarii</h1>
-                    <div class="card">
+                    <div class="card col-sm-8 col-md-5 col-lg-5">
                     <h4>❞Dooobra (i poszedł do domu)❝</h4>
                     <h6>~ Artur</h6>
                     </div>
