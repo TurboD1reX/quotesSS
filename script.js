@@ -59,6 +59,18 @@ selector.addEventListener('change', function() {
                     <h4>❞Możesz wyjść z osiedla, ale osiedle nie wyjdzie z ciebie❝</h4>
                     <h6>~ Ewelina</h6>
                 </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Kurwa kurwie łba nie urwie❝</h4>
+                    <h6>~ Ewelina</h6>
+                </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Krecisz sie jak smród po gaciach❝</h4>
+                    <h6>~ Ewelina</h6>
+                </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Dobra to zupa z bobra a jeszcze lepsza z wieprza❝</h4>
+                    <h6>~ Ewelina</h6>
+                </div>
                 `;
                 break;
                 case 'arturO':
@@ -88,5 +100,22 @@ selector.addEventListener('change', function() {
                 </div>
                 `;
                 break;
+                case 'madzia':
+                    contrainerQuotes.innerHTML = `
+                    <h1>Cytaty Madzi podczas pracy w Starej Szwajcarii</h1>
+                    <div class="card col-sm-8 col-md-5 col-lg-5">
+                        <h4>❞Nie chce mi się już❝</h4>
+                        <h6>~ Madzia</h6>
+                    </div>
+                    <div class="card col-sm-8 col-md-5 col-lg-5">
+                        <h4>❞Chce pójść do domuuuuu❝</h4>
+                        <h6>~ Madzia</h6>
+                    </div>
+                    <div class="card col-sm-8 col-md-5 col-lg-5">
+                        <h4>❞Damiaaaaaaaaaaaaannnnnnnnn❝</h4>
+                        <h6>~ Madzia</h6>
+                    </div>
+                    `;
+                    break;
     }
 });
