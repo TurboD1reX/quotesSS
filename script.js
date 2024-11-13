@@ -97,7 +97,7 @@ selector.addEventListener('change', function() {
                     <h6>~ Artur</h6>
                 </div>
                 <div class="card col-sm-8 col-md-5 col-lg-5">
-                    <h4>❞Dżalapino... dwa kanapki❝</h4>
+                    <h4>❞Dżalapino... dwie kanapki❝</h4>
                     <h6>~ Artur</h6>
                 </div>
                 `;
