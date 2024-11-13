@@ -28,6 +28,18 @@ selector.addEventListener('change', function() {
                 <h4>❞Glamour blondy glamour i brunetki❝</h4>
                 <h6>~ Emilka</h6>
             </div>
+            <div class="card col-sm-8 col-md-5 col-lg-5">
+                <h4>❞Licho wyglądasz❝</h4>
+                <h6>~ Emilka</h6>
+            </div>
+            <div class="card col-sm-8 col-md-5 col-lg-5">
+                <h4>❞Zostań pączkiem w moim maśle❝</h4>
+                <h6>~ Emilka</h6>
+            </div>
+            <div class="card col-sm-8 col-md-5 col-lg-5">
+                <h4>❞Ty moje zlato(Czeski)❝</h4>
+                <h6>~ Emilka</h6>
+            </div>
 
             `;
             break;
@@ -71,6 +83,10 @@ selector.addEventListener('change', function() {
                     <h4>❞Dobra to zupa z bobra a jeszcze lepsza z wieprza❝</h4>
                     <h6>~ Ewelina</h6>
                 </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Idziesz mi na jaja(cokolwiek to znaczy)❝</h4>
+                    <h6>~ Ewelina</h6>
+                </div>
                 `;
                 break;
                 case 'arturO':
@@ -80,6 +96,10 @@ selector.addEventListener('change', function() {
                     <h4>❞Dooobra (i poszedł do domu)❝</h4>
                     <h6>~ Artur</h6>
                 </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Jalapenio... dwa bułki❝</h4>
+                    <h6>~ Artur</h6>
+                </div>
                 `;
                 break;
                 case 'marcelS':
@@ -87,6 +107,10 @@ selector.addEventListener('change', function() {
                 <h1>Cytaty Marcela podczas pracy w Starej Szwajcarii</h1>
                 <div class="card col-sm-8 col-md-5 col-lg-5">
                     <h4>❞Dooobra (i poszedł do domu)❝</h4>
+                    <h6>~ Marcel</h6>
+                </div>
+                <div class="card col-sm-8 col-md-5 col-lg-5">
+                    <h4>❞Kochani..❝</h4>
                     <h6>~ Marcel</h6>
                 </div>
                 `;
@@ -115,7 +139,24 @@ selector.addEventListener('change', function() {
                         <h4>❞Damiaaaaaaaaaaaaannnnnnnnn❝</h4>
                         <h6>~ Madzia</h6>
                     </div>
+                    <div class="card col-sm-8 col-md-5 col-lg-5">
+                        <h4>❞Damiaaan x2(po integracji)❝</h4>
+                        <h6>~ Madzia</h6>
+                    </div>
                     `;
                     break;
+                    case 'martynaMi':
+                        contrainerQuotes.innerHTML = `
+                        <h1>Cytaty Martyny Mi. podczas pracy w Starej Szwajcarii</h1>
+                        <div class="card col-sm-8 col-md-5 col-lg-5">
+                            <h4>❞Nie?❝</h4>
+                            <h6>~ Martyna</h6>
+                        </div>
+                        <div class="card col-sm-8 col-md-5 col-lg-5">
+                            <h4>❞Rzucam palenie, koniec!❝</h4>
+                            <h6>~ Martyna</h6>
+                        </div>
+                        `;
+                        break;
     }
 });
